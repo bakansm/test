@@ -1,7 +1,7 @@
 {
   "manifestVersion": "1",
-  "id": "reddit-user-karma",
-  "title": "Total Reddit Karma",
+  "id": "bakansm",
+  "title": "Bakansm",
   "description": "Generate a proof that you have a certain amount of karma",
   "prepareUrl": "https://old.reddit.com/login/?dest=https%3A%2F%2Fold.reddit.com%2F",
   "request": {
