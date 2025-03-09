@@ -1,11 +1,11 @@
 {
-  "manifestVersion": "1",
-  "id": "clinkai-test",
+  "manifestVersion": "3",
+  "id": "2e37332c-1de6-46f0-890b-535dfa6273aa",
   "title": "Test ClinkAI",
   "description": "Test Pluto SDK request on ClinkAI",
-  "prepareUrl": "https://app.clinkai.xyz/auth/login",
+  "prepareUrl": "https://app-dev.clinkai.xyz/auth/login",
   "request": {
-    "url": "https://api-beta.clinkai.xyz/api/users/me",
+    "url": "https://api-dev.clinkai.xyz/api/users/me",
     "method": "GET",
     "headers": {
       "Authorization": "Bearer <% authToken %>",
