@@ -5,11 +5,11 @@
   "description": "Test Pluto SDK request on ClinkAI",
   "prepareUrl": "https://app.clinkai.xyz/auth/login",
   "request": {
-    "url": "https://gql.reddit.com/",
+    "url": "https://api-beta.clinkai.xyz/api/users/me",
     "method": "GET",
     "headers": {
-      "authorization": "Bearer <% authToken %>",
-      "content-type": "application/json"
+      "Authorization": "Bearer <% authToken %>",
+      "Content-Type": "application/json"
     },
   },
   "response": {
